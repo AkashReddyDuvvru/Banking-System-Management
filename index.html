@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Banking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">🏦 Bank</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Open Account</a></li>
+            <li><a href="#">Transactions</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Account Opening Section -->
+    <div class="container">
+        <h1>Open Your Bank Account</h1>
+        <form id="accountForm">
+            <input type="text" id="fname" placeholder="First Name" required>
+            <input type="text" id="lname" placeholder="Last Name" required>
+            <input type="number" id="balance" placeholder="Initial Balance" required>
+            <button type="submit">Create Account</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Premium Banking | Secure & Reliable</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
